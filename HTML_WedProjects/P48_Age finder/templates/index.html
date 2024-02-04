@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>age and gender</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: rgb(56, 55, 55);
+            height: 90vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content{
+            width: 500px;
+            height: 500px;
+            background-color: black;
+            text-align: center;
+            color: aliceblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgb(248, 208, 132);
+            box-shadow: 5px 5px 50px orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Hello {{person_name}}</h1>
+        <p style="font-size:20px; color:rgb(138, 135, 135)"> i think your are {{gender}} and {{age}} years old .</p>
+    </div>
+</body>
+</html>

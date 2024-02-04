@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(204, 203, 203);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: slateblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.content{
+    background-color: white;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.navbar .logo h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    padding-left:30px ;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.options a{
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+}

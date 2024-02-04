@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(204, 203, 203);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: slateblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    top:0;
+    z-index: 0;
+    
+}
+.content{
+    background-color: white;
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    position: relative;
+    top:80px;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.navbar .logo h1{
+    font-size: 40px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    padding-left:30px ;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar .options a{
+    text-decoration: none;
+    color:rgb(223, 222, 222);
+    font-weight: 500;
+    padding: 10px;
+    margin-right: 20px;
+}
