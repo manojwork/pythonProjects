@@ -24,7 +24,7 @@ while True:
     elif temp==0:
         with sm.SMTP("smtp.gmail.com",port=587) as connect:
             connect.starttls()
-            connect.login(user="manojbabu.mandhala@gmail.com",password="bvydresbbflrglwb")
+            connect.login(user="manojbabu.mandhala@gmail.com",password="bflrglwb")
             connect.sendmail(from_addr="manojbabu.mandhala@gmail.com",to_addrs=MAILS,msg=MESSAGE)
             temp=100
     else:
