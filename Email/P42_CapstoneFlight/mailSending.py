@@ -1,7 +1,7 @@
 import smtplib as sm
 import random
 my_mail="manojbabu.mandhala@gmail.com"
-password="bvydresbbflrglwb"
+password="bvlrglwb"
 connect=sm.SMTP("smtp.gmail.com",port=587)
 connect.starttls()
 connect.login(user=my_mail,password=password)
