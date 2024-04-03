@@ -16,6 +16,6 @@ sp=f"{prices[0]}{prices[1]}".split(".")
 if int(sp[0])<2000:
     with smtplib.SMTP("smtp.gmail.com",port=587) as connect:
         connect.starttls()
-        connect.login(user="manojbabu.mandhala@gmail.com",password="bvydresbbflrglwb")
+        connect.login(user="manojbabu.mandhala@gmail.com",password="flrglwb")
         connect.sendmail(from_addr="manojbabu.mandhala@gmail.com",to_addrs="manojmass421@gmail.com",msg=f"subject:Price Down alert \n\n The product price down now \n link: {link}")
     
