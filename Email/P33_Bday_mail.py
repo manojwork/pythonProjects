@@ -16,7 +16,7 @@ def letterfun():
 def sendingmail(mail,letter):
     with sm.SMTP("smtp.gmail.com",port=587) as connect:
         connect.starttls()
-        connect.login(user="manojbabu.mandhala@gmail.com",password="bvydresbbflrglwb")
+        connect.login(user="manojbabu.mandhala@gmail.com",password="bvydrrglwb")
         connect.sendmail(from_addr="manojbabu.mandhala@gmail.com",to_addrs=mail,msg=f"subject:Happy Birthday\n\n {letter}")
 #finding the Bday person.
 data=pandas.read_csv("birthdays.csv")
